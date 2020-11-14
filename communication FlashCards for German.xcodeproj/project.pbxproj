@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD9AFC17255FF2BE0037742B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC16255FF2BE0037742B /* AppDelegate.swift */; };
+		AD9AFC19255FF2BE0037742B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC18255FF2BE0037742B /* SceneDelegate.swift */; };
+		AD9AFC1B255FF2BE0037742B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC1A255FF2BE0037742B /* ViewController.swift */; };
+		AD9AFC1E255FF2BE0037742B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9AFC1C255FF2BE0037742B /* Main.storyboard */; };
+		AD9AFC21255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC1F255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodeld */; };
+		AD9AFC23255FF2C00037742B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9AFC22255FF2C00037742B /* Assets.xcassets */; };
+		AD9AFC26255FF2C00037742B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9AFC24255FF2C00037742B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD9AFC13255FF2BE0037742B /* communication FlashCards for German.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "communication FlashCards for German.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD9AFC16255FF2BE0037742B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD9AFC18255FF2BE0037742B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD9AFC1A255FF2BE0037742B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD9AFC1D255FF2BE0037742B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD9AFC20255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = communication_FlashCards_for_German.xcdatamodel; sourceTree = "<group>"; };
+		AD9AFC22255FF2C00037742B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD9AFC25255FF2C00037742B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD9AFC27255FF2C00037742B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD9AFC10255FF2BE0037742B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD9AFC0A255FF2BE0037742B = {
+			isa = PBXGroup;
+			children = (
+				AD9AFC15255FF2BE0037742B /* communication FlashCards for German */,
+				AD9AFC14255FF2BE0037742B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD9AFC14255FF2BE0037742B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD9AFC13255FF2BE0037742B /* communication FlashCards for German.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD9AFC15255FF2BE0037742B /* communication FlashCards for German */ = {
+			isa = PBXGroup;
+			children = (
+				AD9AFC16255FF2BE0037742B /* AppDelegate.swift */,
+				AD9AFC18255FF2BE0037742B /* SceneDelegate.swift */,
+				AD9AFC1A255FF2BE0037742B /* ViewController.swift */,
+				AD9AFC1C255FF2BE0037742B /* Main.storyboard */,
+				AD9AFC22255FF2C00037742B /* Assets.xcassets */,
+				AD9AFC24255FF2C00037742B /* LaunchScreen.storyboard */,
+				AD9AFC27255FF2C00037742B /* Info.plist */,
+				AD9AFC1F255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodeld */,
+			);
+			path = "communication FlashCards for German";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD9AFC12255FF2BE0037742B /* communication FlashCards for German */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD9AFC2A255FF2C00037742B /* Build configuration list for PBXNativeTarget "communication FlashCards for German" */;
+			buildPhases = (
+				AD9AFC0F255FF2BE0037742B /* Sources */,
+				AD9AFC10255FF2BE0037742B /* Frameworks */,
+				AD9AFC11255FF2BE0037742B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "communication FlashCards for German";
+			productName = "communication FlashCards for German";
+			productReference = AD9AFC13255FF2BE0037742B /* communication FlashCards for German.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD9AFC0B255FF2BE0037742B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AD9AFC12255FF2BE0037742B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = AD9AFC0E255FF2BE0037742B /* Build configuration list for PBXProject "communication FlashCards for German" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD9AFC0A255FF2BE0037742B;
+			productRefGroup = AD9AFC14255FF2BE0037742B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD9AFC12255FF2BE0037742B /* communication FlashCards for German */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD9AFC11255FF2BE0037742B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9AFC26255FF2C00037742B /* LaunchScreen.storyboard in Resources */,
+				AD9AFC23255FF2C00037742B /* Assets.xcassets in Resources */,
+				AD9AFC1E255FF2BE0037742B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD9AFC0F255FF2BE0037742B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9AFC1B255FF2BE0037742B /* ViewController.swift in Sources */,
+				AD9AFC17255FF2BE0037742B /* AppDelegate.swift in Sources */,
+				AD9AFC19255FF2BE0037742B /* SceneDelegate.swift in Sources */,
+				AD9AFC21255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD9AFC1C255FF2BE0037742B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD9AFC1D255FF2BE0037742B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD9AFC24255FF2C00037742B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD9AFC25255FF2C00037742B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD9AFC28255FF2C00037742B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD9AFC29255FF2C00037742B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD9AFC2B255FF2C00037742B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "communication FlashCards for German/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediadh.App.communication-FlashCards-for-German";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD9AFC2C255FF2C00037742B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "communication FlashCards for German/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mediadh.App.communication-FlashCards-for-German";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD9AFC0E255FF2BE0037742B /* Build configuration list for PBXProject "communication FlashCards for German" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9AFC28255FF2C00037742B /* Debug */,
+				AD9AFC29255FF2C00037742B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD9AFC2A255FF2C00037742B /* Build configuration list for PBXNativeTarget "communication FlashCards for German" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD9AFC2B255FF2C00037742B /* Debug */,
+				AD9AFC2C255FF2C00037742B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AD9AFC1F255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AD9AFC20255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodel */,
+			);
+			currentVersion = AD9AFC20255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodel */;
+			path = communication_FlashCards_for_German.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AD9AFC0B255FF2BE0037742B /* Project object */;
+}
