@@ -7,25 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD10F4FA25A09BCC00E5A1BF /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD10F4F925A09BCC00E5A1BF /* FloatingActionButton.swift */; };
+		AD5823BD2589156C009029B3 /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5823BC2589156C009029B3 /* TopicsViewController.swift */; };
+		AD708B55258D0E7D001FCEEB /* FlashCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD708B54258D0E7D001FCEEB /* FlashCardsViewController.swift */; };
+		AD708B5C258D19CA001FCEEB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD708B5B258D19CA001FCEEB /* Color.swift */; };
 		AD9AFC17255FF2BE0037742B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC16255FF2BE0037742B /* AppDelegate.swift */; };
 		AD9AFC19255FF2BE0037742B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC18255FF2BE0037742B /* SceneDelegate.swift */; };
-		AD9AFC1B255FF2BE0037742B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC1A255FF2BE0037742B /* ViewController.swift */; };
-		AD9AFC1E255FF2BE0037742B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9AFC1C255FF2BE0037742B /* Main.storyboard */; };
+		AD9AFC1B255FF2BE0037742B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC1A255FF2BE0037742B /* MenuViewController.swift */; };
 		AD9AFC21255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC1F255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodeld */; };
 		AD9AFC23255FF2C00037742B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9AFC22255FF2C00037742B /* Assets.xcassets */; };
 		AD9AFC26255FF2C00037742B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9AFC24255FF2C00037742B /* LaunchScreen.storyboard */; };
+		AD9AFC58255FF68C0037742B /* Topic+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC52255FF68C0037742B /* Topic+CoreDataClass.swift */; };
+		AD9AFC5A255FF68C0037742B /* Level+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC54255FF68C0037742B /* Level+CoreDataClass.swift */; };
+		AD9AFC62255FF6E00037742B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9AFC61255FF6E00037742B /* DataManager.swift */; };
+		ADC9CE7C25C9F16F00E46BE0 /* FlashCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC9CE7B25C9F16F00E46BE0 /* FlashCardCollectionViewCell.swift */; };
+		ADCC8479258A6DDE00DAC680 /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC8478258A6DDE00DAC680 /* TopicTableViewCell.swift */; };
+		ADFDE8B425668279006042A9 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFDE8B325668279006042A9 /* Fetcher.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD10F4F925A09BCC00E5A1BF /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		AD5823BC2589156C009029B3 /* TopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
+		AD708B54258D0E7D001FCEEB /* FlashCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsViewController.swift; sourceTree = "<group>"; };
+		AD708B5B258D19CA001FCEEB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		AD9AFC13255FF2BE0037742B /* communication FlashCards for German.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "communication FlashCards for German.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9AFC16255FF2BE0037742B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD9AFC18255FF2BE0037742B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD9AFC1A255FF2BE0037742B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AD9AFC1D255FF2BE0037742B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD9AFC1A255FF2BE0037742B /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		AD9AFC20255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = communication_FlashCards_for_German.xcdatamodel; sourceTree = "<group>"; };
 		AD9AFC22255FF2C00037742B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD9AFC25255FF2C00037742B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD9AFC27255FF2C00037742B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD9AFC52255FF68C0037742B /* Topic+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Topic+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AD9AFC54255FF68C0037742B /* Level+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Level+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AD9AFC61255FF6E00037742B /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		ADC9CE7B25C9F16F00E46BE0 /* FlashCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardCollectionViewCell.swift; sourceTree = "<group>"; };
+		ADCC8478258A6DDE00DAC680 /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		ADFDE8B325668279006042A9 /* Fetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +57,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD4616B5258AC48900217DC1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD10F4F925A09BCC00E5A1BF /* FloatingActionButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD5823BA25891522009029B3 /* TopicsView */ = {
+			isa = PBXGroup;
+			children = (
+				AD5823BC2589156C009029B3 /* TopicsViewController.swift */,
+				ADCC8478258A6DDE00DAC680 /* TopicTableViewCell.swift */,
+			);
+			path = TopicsView;
+			sourceTree = "<group>";
+		};
+		AD708B57258D150A001FCEEB /* FlashCardsView */ = {
+			isa = PBXGroup;
+			children = (
+				AD708B54258D0E7D001FCEEB /* FlashCardsViewController.swift */,
+				ADC9CE7B25C9F16F00E46BE0 /* FlashCardCollectionViewCell.swift */,
+			);
+			path = FlashCardsView;
+			sourceTree = "<group>";
+		};
+		AD708B5A258D19AF001FCEEB /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				AD708B5B258D19CA001FCEEB /* Color.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		AD708B5F258E0706001FCEEB /* App Views */ = {
+			isa = PBXGroup;
+			children = (
+				ADDEF6082586CDD0007F8FA1 /* MenuView */,
+				AD5823BA25891522009029B3 /* TopicsView */,
+				AD708B57258D150A001FCEEB /* FlashCardsView */,
+			);
+			path = "App Views";
+			sourceTree = "<group>";
+		};
 		AD9AFC0A255FF2BE0037742B = {
 			isa = PBXGroup;
 			children = (
 				AD9AFC15255FF2BE0037742B /* communication FlashCards for German */,
-				AD9AFC14255FF2BE0037742B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,21 +114,44 @@
 				AD9AFC13255FF2BE0037742B /* communication FlashCards for German.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		AD9AFC15255FF2BE0037742B /* communication FlashCards for German */ = {
 			isa = PBXGroup;
 			children = (
+				AD708B5F258E0706001FCEEB /* App Views */,
+				AD4616B5258AC48900217DC1 /* Extensions */,
+				AD708B5A258D19AF001FCEEB /* Theme */,
+				AD9AFC4C255FF48B0037742B /* Model */,
 				AD9AFC16255FF2BE0037742B /* AppDelegate.swift */,
 				AD9AFC18255FF2BE0037742B /* SceneDelegate.swift */,
-				AD9AFC1A255FF2BE0037742B /* ViewController.swift */,
-				AD9AFC1C255FF2BE0037742B /* Main.storyboard */,
+				AD9AFC14255FF2BE0037742B /* Products */,
 				AD9AFC22255FF2C00037742B /* Assets.xcassets */,
 				AD9AFC24255FF2C00037742B /* LaunchScreen.storyboard */,
 				AD9AFC27255FF2C00037742B /* Info.plist */,
 				AD9AFC1F255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodeld */,
 			);
 			path = "communication FlashCards for German";
+			sourceTree = "<group>";
+		};
+		AD9AFC4C255FF48B0037742B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD9AFC52255FF68C0037742B /* Topic+CoreDataClass.swift */,
+				AD9AFC54255FF68C0037742B /* Level+CoreDataClass.swift */,
+				AD9AFC61255FF6E00037742B /* DataManager.swift */,
+				ADFDE8B325668279006042A9 /* Fetcher.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADDEF6082586CDD0007F8FA1 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				AD9AFC1A255FF2BE0037742B /* MenuViewController.swift */,
+			);
+			path = MenuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +213,6 @@
 			files = (
 				AD9AFC26255FF2C00037742B /* LaunchScreen.storyboard in Resources */,
 				AD9AFC23255FF2C00037742B /* Assets.xcassets in Resources */,
-				AD9AFC1E255FF2BE0037742B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD9AFC1B255FF2BE0037742B /* ViewController.swift in Sources */,
+				AD9AFC1B255FF2BE0037742B /* MenuViewController.swift in Sources */,
+				ADCC8479258A6DDE00DAC680 /* TopicTableViewCell.swift in Sources */,
+				AD5823BD2589156C009029B3 /* TopicsViewController.swift in Sources */,
+				ADC9CE7C25C9F16F00E46BE0 /* FlashCardCollectionViewCell.swift in Sources */,
+				ADFDE8B425668279006042A9 /* Fetcher.swift in Sources */,
+				AD708B5C258D19CA001FCEEB /* Color.swift in Sources */,
 				AD9AFC17255FF2BE0037742B /* AppDelegate.swift in Sources */,
+				AD9AFC62255FF6E00037742B /* DataManager.swift in Sources */,
+				AD10F4FA25A09BCC00E5A1BF /* FloatingActionButton.swift in Sources */,
+				AD9AFC5A255FF68C0037742B /* Level+CoreDataClass.swift in Sources */,
+				AD708B55258D0E7D001FCEEB /* FlashCardsViewController.swift in Sources */,
+				AD9AFC58255FF68C0037742B /* Topic+CoreDataClass.swift in Sources */,
 				AD9AFC19255FF2BE0037742B /* SceneDelegate.swift in Sources */,
 				AD9AFC21255FF2BE0037742B /* communication_FlashCards_for_German.xcdatamodeld in Sources */,
 			);
@@ -150,14 +243,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AD9AFC1C255FF2BE0037742B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AD9AFC1D255FF2BE0037742B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AD9AFC24255FF2C00037742B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,6 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STYRP9W7ZQ;
 				INFOPLIST_FILE = "communication FlashCards for German/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +395,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = STYRP9W7ZQ;
 				INFOPLIST_FILE = "communication FlashCards for German/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
